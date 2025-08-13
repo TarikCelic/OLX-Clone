@@ -231,7 +231,7 @@ article {
   width: 100vw;
   background-color: #fffdfa;
   z-index: 1;
-  height: 10vh;
+  height: 7vh;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -357,3 +357,4 @@ p.naziv {
     padding: 7px;
   }
 }
+
