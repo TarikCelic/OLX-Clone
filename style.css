@@ -345,8 +345,6 @@ p.naziv {
     padding-left: 20px;
   }
 }
-@media (max-width: 389px) {
-}
 @media (max-width: 460px) {
   .item {
     width: 190px;
@@ -357,13 +355,13 @@ p.naziv {
 }
 @media (max-width: 394px) {
   .item {
-    width: 159px;
+    width: 176px;
   }
   p.datum {
     font-size: 0.75rem;
   }
   article {
-    padding: 0 20px;
+    padding: 0 10px;
   }
   .category {
     padding: 7px;
@@ -379,8 +377,10 @@ p.naziv {
     font-size: 0.9rem;
   }
 }
-@media (max-width: 368px) {
+@media (max-width: 382px) {
   .item {
     flex-grow: 1;
   }
 }
+
+
