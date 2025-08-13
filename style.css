@@ -232,6 +232,7 @@ article {
   background-color: #fffdfa;
   z-index: 1;
   height: 10vh;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .bar-item {
@@ -311,7 +312,7 @@ p.naziv {
 .none {
   display: none;
 }
-@media (min-width: 917px) {
+@media (min-width: 926px) {
   .new-bar,
   .second-bar {
     display: none;
@@ -320,7 +321,7 @@ p.naziv {
 .bar-item p {
   font-size: 0.8rem;
 }
-@media (max-width: 917px) {
+@media (max-width: 925px) {
   body {
     padding: 0;
   }
@@ -351,5 +352,8 @@ p.naziv {
   }
   article {
     padding: 0 20px;
+  }
+  .category {
+    padding: 7px;
   }
 }
